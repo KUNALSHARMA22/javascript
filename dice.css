@@ -1,0 +1,18 @@
+#maind{
+    margin-left: 500px;
+    background-color: aqua;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-size-adjust:10px;
+
+}
+#btn{
+    margin-top: 10px;
+}
+#diceImage{
+    width: 20px;
+    height: 20px;
+}

@@ -27,8 +27,20 @@
 
 // food(food1,food2, food3, food4 , food5)
 
-function combinestrings( ...strings){
-    return strings.join("")
+// function combinestrings( ...strings){
+//     return strings.join("")
+// }
+// const fullName = combinestrings("kunal" , "sharma ");
+// console.log(fullName);
+
+
+function sum(...numbers){
+    let nmber = [...numbers]
+    let result = 0 ;
+    for( let i of nmber  ){
+        result = result + i ;
+    }
+    console.log(result)
 }
-const fullName = combinestrings("kunal" , "sharma ");
-console.log(fullName);
+
+sum (1,2,3,4,9999)
