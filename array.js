@@ -36,5 +36,5 @@ let arr  =[ "mango" , "grapes" , "banana" , "papaya" ];
 
 // sort array in reverse order 
 
-arr.sort().reverse();
-console.log(arr);
+// arr.sort().reverse();
+// console.log(arr);
