@@ -20,11 +20,11 @@ const includerrSymbol = "!@#$%^&*_-+~<>";
  
 
     for (let i = 0 ; i <= length;i++){
-        const len = Math.floor(Math.random()*26);
+        const len = Math.floor(Math.random()*26*3);
         password += allowed[len];
         
     }
-    para.textContent = password
+    para.textContent = `Random Generated Password = ${password}`
 }
 
 
